@@ -73,8 +73,9 @@ body {
 header .navbar-brand {
   max-width: 200px;
 }
-.footer-text{
-  color: #ff792d!important;
+
+.footer-text {
+  color: #ff792d !important;
 }
 
 header .nav-link {
@@ -159,13 +160,16 @@ button a:Hover {
   color: var(--white);
 }
 
-.cus-btn:hover{
+.cus-btn:hover {
   color: var(--white);
 }
 
 /* --Slider-- */
 
-.slider{z-index: 2; position: relative;}
+.slider {
+  z-index: 2;
+  position: relative;
+}
 
 .slider .slider-content {
   max-width: 650px;
@@ -295,47 +299,61 @@ button a:Hover {
 .what-we-do .bg-img-wrapper .bg-img.bg-img-1 {
   background-image: url(../src/images/dgps.jpg);
 }
+
 .what-we-do .bg-img-wrapper .bg-img.bg-img-2 {
-   background-image: url(../src/images/topographic.jpg);
+  background-image: url(../src/images/topographic.jpg);
 }
+
 .what-we-do .bg-img-wrapper .bg-img.bg-img-3 {
-   background-image: url(../src/images/boundry.jpg);
+  background-image: url(../src/images/boundry.jpg);
 }
+
 .what-we-do .bg-img-wrapper .bg-img.bg-img-4 {
-   background-image: url(../src/images/img-3.png);
+  background-image: url(../src/images/img-3.png);
 }
+
 .what-we-do .bg-img-wrapper .bg-img.bg-img-5 {
-   background-image: url(../src/images/drone.jpg);
+  background-image: url(../src/images/drone.jpg);
 }
+
 .what-we-do .bg-img-wrapper .bg-img.bg-img-6 {
-   background-image: url(../src/images/s3.jpg);
+  background-image: url(../src/images/s3.jpg);
 }
+
 .what-we-do .bg-img-wrapper .bg-img.bg-img-7 {
-   background-image: url(../src/images/pipeline.jpg);
+  background-image: url(../src/images/pipeline.jpg);
 }
+
 .what-we-do .bg-img-wrapper .bg-img.bg-img-8 {
-   background-image: url(../src/images/road.jpg);
+  background-image: url(../src/images/road.jpg);
 }
+
 .what-we-do .bg-img-wrapper .bg-img.bg-img-9 {
-   background-image: url(../src/images/asbuilt.jpg);
+  background-image: url(../src/images/asbuilt.jpg);
 }
+
 .what-we-do .bg-img-wrapper .bg-img.bg-img-10 {
-   background-image: url(../src/images/contour.jpg);
+  background-image: url(../src/images/contour.jpg);
 }
+
 .what-we-do .bg-img-wrapper .bg-img.bg-img-11 {
-   background-image: url(../src/images/layout\ mapping.jpg);
+  background-image: url(../src/images/layout\ mapping.jpg);
 }
+
 .what-we-do .bg-img-wrapper .bg-img.bg-img-12 {
-   background-image: url(../src/images/settingout.jpg);
+  background-image: url(../src/images/settingout.jpg);
 }
+
 .what-we-do .bg-img-wrapper .bg-img.bg-img-13 {
-   background-image: url(../src/images/cadastral.jpg);
+  background-image: url(../src/images/cadastral.jpg);
 }
+
 .what-we-do .bg-img-wrapper .bg-img.bg-img-14 {
-   background-image: url(../src/images/geotechnical.jpg);
+  background-image: url(../src/images/geotechnical.jpg);
 }
+
 .what-we-do .bg-img-wrapper .bg-img.bg-img-15 {
-   background-image: url(../src/images/solar.jpg);
+  background-image: url(../src/images/solar.jpg);
 }
 
 
@@ -351,7 +369,8 @@ button a:Hover {
   .what-we-do .row.even-row {
     flex-direction: column-reverse;
   }
-  .slider .slider-content{
+
+  .slider .slider-content {
     margin: 120px clamp(1.25rem, 0.2033rem + 4.7847vw, 2.5rem);
   }
 }
@@ -393,14 +412,14 @@ section.testimonial .container {
 
 .logos-wrapper {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   border: 1px solid var(--secondory-color);
 }
 
 .logos-wrapper>div {
   border: 1px solid var(--secondory-color);
   background: var(--white);
-  padding: clamp(1.875rem, 1.457rem + 1.9108vw, 3.75rem);
+  padding: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -443,6 +462,10 @@ section.testimonial .container {
   .testimonial .testimonial-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  header .navbar-nav {
+    width: 100%;
+  }
 }
 
 .contact-us .content-col p {
@@ -453,7 +476,10 @@ section.testimonial .container {
   background-image: url("../src/images/contact.png");
 }
 
-.contact-us .form-control, .contact-us .form-select {padding: 15px 20px;}
+.contact-us .form-control,
+.contact-us .form-select {
+  padding: 15px 20px;
+}
 
 
 
@@ -559,7 +585,7 @@ footer iframe {
 }
 
 
-.back-to-top span{
+.back-to-top span {
   width: 40px;
   height: 40px;
   background: var(--primary-color);
@@ -570,12 +596,12 @@ footer iframe {
   transition: 0.3s ease;
 }
 
-.back-to-top span i{
+.back-to-top span i {
   font-size: 20px;
   color: var(--white);
 }
 
-.back-to-top span:hover{
+.back-to-top span:hover {
   background: var(--secondory-color);
 }
 
@@ -598,45 +624,69 @@ footer iframe {
   left: clamp(0.9375rem, 0.7285rem + 0.9554vw, 1.875rem);
 }
 
-.slider-content button.cus-btn{
+.slider-content button.cus-btn {
   background: var(--white);
   color: var(--secondory-color);
 }
-.slider-content button.cus-btn a, .slider-content button.cus-btn a span{ color: inherit; }
 
-.slider-content button.cus-btn:hover{
+.slider-content button.cus-btn a,
+.slider-content button.cus-btn a span {
+  color: inherit;
+}
+
+.slider-content button.cus-btn:hover {
   color: var(--white);
   background: var(--primary-color);
 }
 
-.slider-content p.sub-title{
+.slider-content p.sub-title {
   font-size: 20px;
 }
 
-footer {overflow-x: hidden;}
+footer {
+  overflow-x: hidden;
+}
 
-header .nav-link.dropdown-toggle:focus{
+header .nav-link.dropdown-toggle:focus {
   color: var(--primary-color);
 }
-header .dropdown-item:focus, header .dropdown-item:hover {
+
+header .dropdown-item:focus,
+header .dropdown-item:hover {
   background: var(--primary-color);
   color: var(--white);
 }
-header .dropdown-menu{padding: 10px 5px;}
-header .dropdown-menu[data-bs-popper]{
+
+header .dropdown-menu {
+  padding: 10px 5px;
+}
+
+header .dropdown-menu[data-bs-popper] {
   left: -10px;
   margin-top: 26px;
 }
 
 @media(max-width:992px) {
-  header .dropdown-menu[data-bs-popper]{margin-top: 10px;}
+  header .dropdown-menu[data-bs-popper] {
+    margin-top: 10px;
+  }
 }
+
 .captcha-wrapper {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.captcha-wrapper .input-group input{max-width: 100%!important;}
-.captcha-wrapper .input-group .btn { background: var(--primary-color); color: var(--white); }
-.captcha-wrapper .input-group .btn:hover{background: var(--secondory-color);}
+.captcha-wrapper .input-group input {
+  max-width: 100% !important;
+}
+
+.captcha-wrapper .input-group .btn {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.captcha-wrapper .input-group .btn:hover {
+  background: var(--secondory-color);
+}

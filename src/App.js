@@ -4,6 +4,9 @@ import './App.css';
 import image_1 from "./images/s1.jpg"
 import image_2 from "./images/s2.jpg"
 import image_3 from "./images/s4.jpg"
+import image_4 from "./images/cl-1.png"
+import image_5 from "./images/cl-2.png"
+import image_6 from "./images/cl-3.png"
 import logo from "./images/logo.png"
 import { FaWhatsapp } from 'react-icons/fa'; // Import WhatsApp icon from react-icons
 
@@ -589,7 +592,7 @@ function App() {
             <div className='col'>
               <div className='logos-wrapper'>
                 <div> <img className='img-fluid' src={"https://ramrajcotton.in/cdn/shop/files/ramraj_logo_155x@2x.jpg?v=1631932971"} class="d-block w-100" alt="..." /></div>
-                <div> <img className='img-fluid' src={"https://www.eastmanexports.com/wp-content/themes/brandon/images/logo.png"} class="d-block w-100" alt="..." /></div>
+                {/* <div> <img className='img-fluid' src={"https://www.eastmanexports.com/wp-content/themes/brandon/images/logo.png"} class="d-block w-100" alt="..." /></div> */}
                 <div> <img className='img-fluid' src={"https://www.casagrand.co.in/wp-content/uploads/2021/07/Casagrand-Logo1.png?ver=1.201"} class="d-block w-100" alt="..." /></div>
                 <div> <img className='img-fluid' src={"https://www.mrftyres.com/images/mrf-logo.png"} class="d-block w-100" alt="..." /></div>
                 <div> <img className='img-fluid' src={"https://www.craftsmanautomation.com/images/craftsman-logo.webp"} class="d-block w-100" alt="..." /></div>
@@ -598,6 +601,10 @@ function App() {
                 <div> <img className='img-fluid' src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXL60LM1FJmcdhKyHVhp1tl6Bi8Hy8iWjUeOLMY_hjjYW4vDbhmETTwFZgCngARQotj7I&usqp=CAU"} class="d-block w-100" alt="..." /></div>
                 <div> <img className='img-fluid' src={"https://iocl.com/assets/images/logo.gif"} class="d-block w-100" alt="..." /></div>
                 <div> <img className='img-fluid' src={"https://www.dbs.com/iwov-resources/flp/images/dbs_logo.svg"} class="d-block w-100" alt="..." /></div>
+
+                <div> <img className='img-fluid' src={image_4} class="d-block w-100" alt="..." /></div>
+                <div> <img className='img-fluid' src={image_5} class="d-block w-100" alt="..." /></div>
+                <div> <img className='img-fluid' src={image_6} class="d-block w-100" alt="..." /></div>
               </div>
             </div>
           </div>
